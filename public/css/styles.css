@@ -3,6 +3,10 @@ body{
     background-color: #F5F5F5;
 }
 
+.halfradius {
+    border-radius: 0 25% 0 25%;
+}
+
 .hide {
     display: none;
 }
