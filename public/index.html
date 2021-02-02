@@ -3,9 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="./images/iccon2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <title>My name</title>
 </head>
 <body>
-    
+    <div class="ajuste">
+        <div class="container-fluid container-linear">
+            <div class="row container-card">
+                <div class="col-12 offset-lg-3 col-md-3 col-lg-3 card-col">
+                    <div class="card card-perfil">
+                        <div class="img-perfil-card">
+                            <img src="./images/user.png"
+                                class=" card-image" alt="imagem de perfil">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Nei</h5>
+                            <hr class="hr">
+                            <p style="text-align: center;"></p>
+
+                            <div class="botoes-card">
+                                <button class="btn pr-3" id="btn-sobre" onClick="mostraSobre();">
+                                    Sobre
+                                </button>
+                                <button class="btn" id="btn-projeto" onClick="mostraProjetos();">
+                                    Projetos
+                                </button>
+                            </div>
+
+                            <div class="icon-redes-sociais">
+                                <div class="links-redes-sociais mt-2">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-body" id="sobre">
+                    <div class="text">
+                        <h1 class="title-text">Olá,</h1>
+                        <H4 class="title-subtitle">Bem vindo</H4>
+                        <p>
+                            Formado em análise e desenvolvimento de sistemas em 2021 pela 
+                            Universidade Cruzeiro do Sul, e desbravador de novas 
+                            tecnologias no geral mas, principalmente, 
+                            com tendências apontadas para web, desde 2010. 
+                            Autodidata pelos caminhos das documentações de linguagens de 
+                            programação e frameworks, bem como pelas diversas tendências 
+                            que envolvem as staks do nicho da web.
+                        </p>
+                        <a href="#" target="_blank">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-body hide" id="projeto">
+                    <div class="text">
+                        <h1 class="title-text">Projetos</h1>
+                        <H4 class="title-subtitle">Sobre os projetos</H4>
+                        <p>
+                            Com vários certificados de cursos livres e através das 
+                            documentações das diversas tecnologias, venho me preparando ao 
+                            longo do tempo dedicado em projetos pessoais, para enfrentar os 
+                            desafios e aproveitar das oportunidades profissionais, para 
+                            desenvolver sempre mais e melhor. 
+                        </p>
+                        <a href="#" target="_blank">Saiba mais...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="row text-center" id="footer-elementos">
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4>Telefone</h4>
+                    <p>(51) 9 9999-9999</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div style="padding: 15px 0 15px 0">
+                    <h4>E-mail</h4>
+                    <p><a href="mailto:nei.thomass@gmail.com">nei.thomass@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4>Siga</h4>
+                    <div class="links-redes-sociais">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;margin-bottom: 10px;">
+            <div class="col-12">
+                <small>My Name is developed by <a href="mailto:nei.thomass@gmail.com"
+                        target="_blank">Nei Thomassin Dutra</a></small>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/main.js"></script>
 </body>
 </html>
